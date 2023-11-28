@@ -18,10 +18,6 @@ function App() {
     const data = await response.json();
     setMovies(data.Search);
   }
-
-  useEffect(() => {
-    searchMovies('Superman')
-  }, []);
   //
 
   return (
